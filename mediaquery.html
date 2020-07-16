@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos basico de media query</title>
+    <style>
+      h1 {
+        color: blue;
+      }
+      @media (min-width: 700px) {
+        h1,
+        p {
+          color: red;
+          float: left;
+          width: 50%;
+        }
+        p {
+          color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejemplo de consulta basica en media query</h1>
+    <p>
+      Este parrafo se ocultara cuando cuando el dispositivo de vizualización (en
+      navegador en nuestro caso ) tenga una anchura máxima de 400 px
+    </p>
+  </body>
+</html>
